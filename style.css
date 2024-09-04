@@ -87,3 +87,42 @@ body {
   font-size: 1sem;
     margin-top: 0;
 }
+
+/* Estilos generales para el menú de navegación */
+nav {
+    background-color: #375633;; /* Color de fondo del menú de navegación */
+    padding: 10px 0; /* Espaciado arriba y abajo del menú */
+    text-align: center; /* Alinea el contenido al centro */
+    font-family: public system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* Estilos para la lista dentro del nav */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
+    display: inline-block; /* Hace que la lista se alinee horizontalmente */
+    font-family: public system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* Estilos para los elementos de la lista */
+nav ul li {
+    display: inline; /* Hace que los elementos de la lista se muestren en línea */
+    margin-right: 20px; /* Añade espacio entre los enlaces */
+    font-family: public system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* Estilos para los enlaces dentro del menú */
+nav ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    padding: 8px 16px; /* Espaciado interno de los enlaces */
+    transition: background-color 0.3s ease; /* Efecto de transición para el fondo */
+    font-family: public system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* Estilos para los
